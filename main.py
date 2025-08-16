@@ -120,8 +120,8 @@ def go(config: DictConfig):
             ##################
             _ = mlflow.run(
                 #f"{config['main']['components_repository']}/train_random_forest",
-                f"{config['main']['components_repository']}/src/train_random_forest"
-                "main",
+                f"{config['main']['components_repository']}/train_random_forest",
+                version='main',
                 env_manager="conda",
                 parameters={
                     "trainval_artifact": "trainval_data.csv:latest",
