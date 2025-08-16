@@ -119,8 +119,8 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                #f"{config['main']['components_repository']}/train_random_forest",
-                f"{config['main']['components_repository']}/train_random_forest",
+                config['main']['components_repository'],
+                entry_point="train_random_forest",
                 version='main',
                 env_manager="conda",
                 parameters={
