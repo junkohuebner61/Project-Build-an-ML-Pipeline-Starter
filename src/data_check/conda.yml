@@ -10,6 +10,7 @@ dependencies:
   - pip=23.3.1
   - libstdcxx-ng=12.2.0
   - gxx_linux-64=12.2.0
+  - libgcc-ng>=11
   - pip:
     - mlflow==2.8.1
     - wandb==0.16.0
