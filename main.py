@@ -58,7 +58,7 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                "git+https://github.com/junkohuebner61/Project-Build-an-ML-Pipeline-Starter.git#components/src/basic_cleaning",
+                os.path.abspath(os.path.join("src", "basic_cleaning")),
                 "main",
                 env_manager="conda",
                 parameters={
