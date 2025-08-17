@@ -58,7 +58,8 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                os.path.join(get_original_cwd(), "src", "basic_cleaning"),
+                #os.path.join(get_original_cwd(), "src", "basic_cleaning"),
+                f"{config['main']['src_repository']}/basic_cleaning",
                 "main",
                 env_manager="conda",
                 parameters={
