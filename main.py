@@ -68,7 +68,8 @@ def go(config: DictConfig):
                     "output_description": "Cleaned data with outliers and duplicates removed",
                     "min_price": config["etl"]["min_price"],
                     "max_price": config["etl"]["max_price"],
-                    })
+                    },
+                    )
 
         if "data_check" in active_steps:
             ##################
