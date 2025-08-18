@@ -18,8 +18,8 @@ In this project you will build such a pipeline.
 
 ## Links for my project
 
-The link to [Weights & Biases](https://wandb.ai/jhueb13-wgu/nyc_airbnb?nw=nwuserjhueb13)
-The link to [GitHub](https://github.com/junkohuebner61/Project-Build-an-ML-Pipeline-Starter)
+* The link to [Weights & Biases](https://wandb.ai/jhueb13-wgu/nyc_airbnb?nw=nwuserjhueb13)
+* The link to [GitHub](https://github.com/junkohuebner61/Project-Build-an-ML-Pipeline-Starter)
 
 
 ## Preliminary steps
