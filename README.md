@@ -16,6 +16,8 @@ In this project you will build such a pipeline.
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
 
+## W&B link for my project
+
 This is the link to [Weights & Biases](https://wandb.ai/jhueb13-wgu/nyc_airbnb?nw=nwuserjhueb13)
 
 
